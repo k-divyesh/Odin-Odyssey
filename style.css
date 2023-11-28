@@ -1,0 +1,173 @@
+/*given properties*/
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+header,
+.hero,
+footer {
+    background-color: #1f2937;
+}
+
+.hero-left-primary {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-left-secondary {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.bottom-bluebox {
+    background-color: #3882f6;
+}
+
+main > strong > p {
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 5;
+    color: #1f2937;
+}
+
+/*added prop*/
+body,
+html {
+    margin: 0;
+}
+
+body > * {
+    margin: 0;
+}
+
+header {
+    padding: 15px 25px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+
+.link {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: xx-small;
+}
+
+.hero {
+    display: flex;
+    padding: 150px 60px;
+    justify-content: center;
+}
+
+.hero * {
+    padding: 7px;
+}
+
+.hero-right {
+    border: 2px solid grey;
+    width: 500px;
+}
+.hero-left-secondary {
+    margin: 0;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+    padding: 5px 5px;
+    color: whitesmoke;
+}
+
+.hero p {
+    margin-left: 5px;
+}
+.hero button {
+    margin-left: 10px;
+}
+
+main > strong {
+    width: 100%;
+    text-align: center;
+}
+
+main > * {
+    margin: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 80px 40px;
+}
+
+.info-section-subtext {
+    text-align: center;
+}
+
+.quote {
+    padding: 100px 40px;
+}
+
+.quote-ref {
+    text-align: right;
+}
+
+.bottom {
+    padding: 100px 70px;
+}
+
+.bottom-bluebox {
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom-bluebox-left * {
+    margin: 2px;
+    color: #f9faf8;
+}
+.bottom-bluebox-left > p {
+    color: whitesmoke;
+}
+
+.bottom-bluebox button {
+    border: 2px solid whitesmoke;
+}
+
+footer {
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+}
