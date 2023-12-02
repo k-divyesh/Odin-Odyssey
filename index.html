@@ -3,9 +3,52 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="stylesheet" href="./style.css" />
-        <script src="./javascript.js"></script>
+        <title>rock paper scissors</title>
+        <link rel="stylesheet" href="./styles.css" />
+        <script src="./script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
     </head>
-    <body></body>
+    <body>
+        <header>
+            <h1>ROCK - PAPER - SCISSORS</h1>
+        </header>
+
+        <main>
+            <h2 id="result"></h2>
+            <div id="game-section">
+                <div class="player">
+                    <h2>PLAYER</h2>
+                    <p>(⌐⊙_⊙)</p>
+                </div>
+                <p id="player_score">0</p>
+                <h2>VS</h2>
+                <p id="comp_score">0</p>
+                <div class="player">
+                    <h2>Computer</h2>
+                    <p>🎲</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <ul>
+                <li>
+                    <button>Rock<span> 🪨</span></button>
+                </li>
+                <li>
+                    <button>Paper<span> 📄</span></button>
+                </li>
+                <li>
+                    <button>Scissor<span> ✂️</span></button>
+                </li>
+            </ul>
+        </footer>
+
+        <div class="game-result hidden"></div>
+    </body>
 </html>
