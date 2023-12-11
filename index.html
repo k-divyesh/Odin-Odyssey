@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Etch A Sketch</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Etch A Sketch</h1>
+        </header>
+
+        <div class="container">
+            <div class="settings settings-left">
+                <!-- pen color -->
+                <div class="pen_settings">
+                    <button id="pen_button">pen</button>
+                    <br />
+                    <label for="pen_color">
+                        pen color
+                        <input type="color" id="pen_color" />
+                    </label>
+                </div>
+                <!-- background color -->
+                <label for="bg_color">
+                    bg color
+                    <input type="color" id="bg_color" />
+                </label>
+                <!-- eraser -->
+                <button id="eraser_button">Eraser</button>
+            </div>
+            <main></main>
+            <div class="settings settings-right">
+                <button id="toggle_grid_button">Toggle grid</button>
+                <button id="clear_canvas_button">clear canvas</button>
+                <button id="reset_canvas_button">reset canvas</button>
+            </div>
+        </div>
+
+        <footer>
+            <label for="grid_size">grid_size </label>
+            <br />
+            <input type="range" id="grid_size" min="1" max="64" step="1" />
+        </footer>
+    </body>
+</html>
